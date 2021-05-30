@@ -1,0 +1,38 @@
+name: under_todo
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  get: ^4.1.4
+  cupertino_icons:
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: KoHo
+      fonts:
+        - asset: assets/fonts/Koho-Regular.ttf
+        - asset: assets/fonts/Koho-Italic.ttf
+          style: italic
+    
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/CustomFont.ttf
+
+analyzer:
+  enable-experiment:
+    - non-nullable
